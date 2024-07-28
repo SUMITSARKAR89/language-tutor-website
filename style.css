@@ -1,0 +1,69 @@
+/* -----------========custom css ===========--------  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    transition:all 0.4s ease-in-out;
+}
+:root{
+
+    /*color */
+    ---white-color: #ffffff;
+    ---nav-color: #f5f7f9;
+    ---black-color: #000000;
+    ---header-text-color: #000000a6;
+    ---text-color:#333333;
+
+    ---blue:#1e73be;
+    ---green:#81D742;
+    ---orange: #CE592F;
+    ---deep-orange: #AA7627;
+    --purple: #CE25E8;
+   
+    /* font  */
+   
+    --font-h1: 66px;
+    ---font-h2: 42px;
+    --font-h3: 26px;
+    --font-h4:20px;
+    --font-h5: 18px;
+    
+    --font-a:14px;
+    ---font-15: 15px;
+    ---font-p: 16px;
+    --font-13: 13px;
+    --footer-font-nav:22px;
+    /* more fontsize  */
+    
+    
+    
+}
+*:before, 
+*:after {
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    
+}
+a{
+    cursor: pointer;
+    display: block;
+}
+
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+body{
+  
+    width: 100%;
+    margin:  0 auto;
+    height: auto;
+    background-color: #f5efef;
+    color: #000;
+}
