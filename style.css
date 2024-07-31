@@ -66,25 +66,65 @@ body{
 section{
     padding: 3% 1%
 }
-hr .hr{
-    background-color: red;
-    width: 100%;
 
-}
 
 /* ================= main css ===================  */
-header{
+header.index-header{
    width: 100%;
    height: 140vh;
-   background: url(img/bg-03-free-img.jpg) ;
+    background: url(img/bg-03-free-img.jpg) ; 
    background-position: center top;
    background-repeat: no-repeat;
    background-size: cover ;
    background-attachment: fixed;
    position: relative;
-   
-  
-   
+}
+header.course-header{
+   width:100%;
+   height: 90vh;
+    background: url(img/bg-07-free-img.jpg) ; 
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover ;
+   background-attachment: fixed;
+   position: relative;
+
+}
+header.teacher-header{
+   width:100%;
+   height: 90vh;
+   background: url(img/bg-001-free-img.jpg) ; 
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+   background-attachment: fixed;
+   position: relative;
+
+}
+header.about-header{
+   width:100%;
+   height: 90vh;
+   background: url(img/bg-06-free-img.jpg) ; 
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+   background-attachment: fixed;
+   position: relative;
+
+}
+header.contact-header{
+   width:100%;
+   height: 90vh;
+   background: url(img/bg-002-free-img.jpg) ; 
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+   background-attachment: fixed;
+   position: relative;
+
 }
 header::before{
     content: '';
@@ -155,16 +195,29 @@ ul{
 #active{
    color: #fff;
 }
-.hero{
+.index-header .hero{
     text-align: center;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     margin-top: 60px;
-    position: absolute;
-    
-   
+    position: absolute;  
 }
+.course-header .hero, 
+.teacher-header .hero,
+.about-header .hero,
+.contact-header .hero{
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;  
+
+}
+
+
 .hero p{
     font-size: var(---font-18);
     color: var(---text-white);
@@ -178,8 +231,14 @@ ul{
     font-weight: 200;
     color: var(---text-white);
     text-align: center;
+    align-items: center;
     margin: 0 8%; 
     line-height: 110px;
+}
+.hero h3{
+   font-size: var(---font-30);
+   color: var(---text-white);
+   width: 700px;
 }
 .hero span{
     font-weight: 500;
@@ -199,7 +258,7 @@ ul{
 
 /* ============================== main section start here ==========================  */
 .main-section{
-    background-image: url(img/greg-rosenke-kr67X9ralR0-unsplash.jpg);
+    background-image: url(img/greg-rosenke-kr67X9ralR0-unsplash.jpg); 
     background-color:transparent;
     background-position: center;
     background-repeat: no-repeat;
@@ -601,7 +660,7 @@ button i{
  .image-background img{
     border-radius: 18px;
     box-shadow: rgb(0, 0, 0) 0px 22px 70px 4px;
-    width: 90%;
+    width: 95%;
    position: relative;
    z-index: 2;
     top: 10%;
@@ -624,7 +683,7 @@ button i{
    left: 50%;
   text-align: center;
    transform: translate(-50%, -50%);
-   z-index: 1;
+   z-index: 2;
    margin-top: 15%;
  }
  .image-content p{
