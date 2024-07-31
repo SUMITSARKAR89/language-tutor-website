@@ -152,6 +152,9 @@ ul{
 .btn:hover{
     background-color: #e00966;
 }
+#active{
+   color: #fff;
+}
 .hero{
     text-align: center;
     justify-content: center;
@@ -523,4 +526,195 @@ button i{
     display: block;
     width: 25%;
     text-align: center;
+ }
+ /* -----------------------------------------  */
+ .story-section{
+    background: url(img/greg-rosenke-kr67X9ralR0-unsplash.jpg);
+    width: 100%;
+    height: 160vh;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    margin-top: -55px;
+    
+ }
+ .story-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    width: 100%;
+    height: auto;
+    
+ }
+ .story-container h2{
+    width: 100%;
+    font-size: var(---font-50);
+    align-items: center;
+    margin-top:80px ;
+ }
+  .story-container-card{
+    background-color: var(---text-white);
+    padding: 30px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }
+ .story-container-card i{
+    display: block;
+    font-size: var(---font-30);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: var(---text-black-grey);
+    margin-bottom: 15px;
+ }
+ .story-container-card p{
+    font-size: var(---font-18);
+    font-weight: 400;
+    line-height: 35px;
+    color: var(---text-black-grey);
+    margin-bottom: 25px;
+ }
+ .story-container-card img{
+    border-radius: 100%;
+    object-fit: cover;
+    width: 80px;
+    margin-bottom: 20px;
+ }
+ .story-container h6{
+    font-size: var(---font-15);
+    color: var(---text-black-grey);
+    margin-bottom: 15px;
+
+ }
+ /* ------------------------------------------------  */
+ .image-background {
+    width: 100%;
+    height: auto;
+    margin:  0 auto;
+    margin-top: 5%;
+    position: absolute;
+    background-color:transparent;
+ }
+ .image-background img{
+    border-radius: 18px;
+    box-shadow: rgb(0, 0, 0) 0px 22px 70px 4px;
+    width: 90%;
+   position: relative;
+   z-index: 2;
+    top: 10%;
+    left: 50%;
+    margin-top: 20%;
+    transform: translate(-50%, -50%);
+    
+ }
+
+ .image-background p{
+    position: absolute;
+    top: 0;
+ }
+ .image-background .image-content{
+   position: absolute;
+   max-width: 100%;
+   width: 60%;
+   height: 100%;
+   top: 50%;
+   left: 50%;
+  text-align: center;
+   transform: translate(-50%, -50%);
+   z-index: 1;
+   margin-top: 15%;
+ }
+ .image-content p{
+   font-size: var(---font-18);
+   font-weight: 400;
+   color: var(---text-white);
+   margin-top: -50px;
+   text-align: center;
+   margin-left: 30%;
+   
+ }
+ .image-content h2{
+   font-size: var(---font-80);
+   color: var(---text-white);
+   font-weight: 300;
+   width: 100%;
+ }
+ .image-content h2 span{
+   font-weight: 700;
+   text-decoration: underline;
+   margin-bottom: 30px;
+ }
+ .image-content a{
+   display: block;
+   width: 25%;
+   margin: 0 auto;
+   margin-top: 10%;
+ }
+ /* -----------------------------------------------  */
+ footer{
+   background-color: #323F44;
+   width: 100%;
+   height: 140vh;
+  position: relative;
+   margin-top: 30%;
+   z-index: 1;
+   overflow: hidden;
+ }
+ .footer-container{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   margin: 35% 0 8%;
+   
+ }
+ .footer-container-card{
+   width: 100%;
+   
+ }
+ .footer-container-card p{
+   color: var(---text-grey);
+   font-size: var(---font-18);
+   text-transform: capitalize;
+   margin-bottom: 30px;
+   opacity: 0.7;
+ }
+ .list a{
+   font-size: var(---font-15);
+   color: var(---text-grey);
+   font-weight: 500;
+   text-transform: capitalize;
+   margin: 5px 0;
+   cursor: pointer;
+   display: block;
+   transition: 0.3s;
+ }
+ .list a:hover,  .social .link a:hover{
+   color: var(---text-white);
+ }
+ .social .link{
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+   font-size: var(---font-15);
+   
+ }
+ .social .link i{
+   display: block;
+   color: var(---btn-color);
+   padding: 3px;
+ }
+ .social .link a{
+   display: block;
+   color: var(---text-grey);
+ }
+ .footer-text{
+   margin: 0 4%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+   color: var(---text-grey);
+   opacity: 0.7;
  }
