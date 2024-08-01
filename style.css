@@ -57,7 +57,7 @@ body{
     width: 100%;
     margin:  0 auto;
     height: auto;
-    background-color: transparent;
+    background-color: #F5F5F5;
     color: #000;
 }
 .container{
@@ -660,8 +660,8 @@ button i{
  .image-background img{
     border-radius: 18px;
     box-shadow: rgb(0, 0, 0) 0px 22px 70px 4px;
-    width: 95%;
-   position: relative;
+    width: 90%;
+   position: absolute;
    z-index: 2;
     top: 10%;
     left: 50%;
@@ -676,9 +676,10 @@ button i{
  }
  .image-background .image-content{
    position: absolute;
-   max-width: 100%;
-   width: 60%;
-   height: 100%;
+   width:min(100%, 800px);
+   position: absolute;
+   
+   height: auto;
    top: 50%;
    left: 50%;
   text-align: center;
@@ -716,7 +717,7 @@ button i{
  footer{
    background-color: #323F44;
    width: 100%;
-   height: 140vh;
+   height: 150vh;
   position: relative;
    margin-top: 30%;
    z-index: 1;
@@ -777,3 +778,292 @@ button i{
    color: var(---text-grey);
    opacity: 0.7;
  }
+
+ /* ====================================Teacher.HTML=============================  */
+ .teacher-section{
+   max-width: 100%;
+   margin: 3% 15%;
+   
+ }
+ .teacher-container-card{
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
+   border-bottom: 1px solid #6d666636;
+   padding: 8% 0;
+   
+ }
+ 
+ .teacher-card-left{
+   width: 40%;
+ }
+ .teacher-card-right{
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+ }
+ .teacher-card-left .card-box{
+   background-color:var(---text-white);
+   align-items: center;
+   text-align: center;
+   padding: 35px 10px;
+   border-radius: 15px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }
+ .card-box img{
+   width: 80px;
+   border-radius: 100%;
+   object-fit: cover;
+   margin-bottom: 25px;
+ }
+ .card-box .card-icon,
+ .card-box .card-star{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   margin-bottom: 15px;
+ }
+ .card-box .card-star{
+   margin-bottom: 2px;
+ }
+ .card-icon i{
+   display: block;
+   color: var(---text-black-grey);
+   font-size: var(---font-22);
+ }
+ .card-icon p{
+   text-transform: capitalize;
+   font-size: var(---font-18);
+   color: var(---text-black);
+   font-weight: 300;
+   
+ }
+ .card-star p{
+   font-size: var(---font-18);
+   color: var(---star-color);
+   font-weight: 800;
+   
+ }
+ .star i{
+   display: inline-block;
+   color: var(---star-color);
+   letter-spacing: -5px;
+
+ }
+ .card-box .lesson{
+   margin-bottom: 20px;
+   font-size: var(---font-18);
+   color: var(---text-black-grey);
+   
+ }
+ .card-box a{
+   padding: 10px;
+   width: 50%;
+   margin:  0 auto 10%;
+
+ }
+ .teacher-card-right h3{
+   font-size: var(---font-22);
+   font-weight: 300;
+   text-transform: capitalize;
+   color: var(---text-black);
+   margin-bottom: 20px;
+
+ }
+ .teacher-card-right .text{
+   font-size: var(---font-15);
+   color: var(---text-black-grey);
+   line-height: 23px;
+   
+   
+ }
+ .teacher-card-right .text .plus{
+   color: var(---btn-color);
+   display: inline-block;
+ }
+ .teacher-card-right .thin{
+   text-transform: uppercase;
+   font-weight: 300;
+   margin-bottom: 5px;
+   letter-spacing: 2px;
+   font-size: var(---font-15);
+ }
+ /* ==================================about HTML ============================  */
+
+ .about-us-section{
+   width: min(100%, 1000px);
+   margin: 0 auto;
+   text-align: center;
+ }
+ .about-us-section p{
+   text-transform: capitalize;
+   color: var(---btn-color);
+   font-size: var(---font-15);
+   margin-bottom: 30px;
+   font-weight: 300;
+ }
+ .about-us-section h2{
+   font-size: var(---font-50);
+   color: var(---text-black);
+   font-weight: 600;
+ }
+ .about-us-section h2::after{
+   content: '';
+   position: absolute;
+   width: 150px;
+   height: 2px;
+   background-color: rgba(17, 0, 0, 0.562);
+    top: 100%;
+    margin-top: 20%;
+    left: 45%;
+ }
+ p.l-text{
+   color: var(---text-black-grey);
+   font-size: var(---font-15);
+   line-height: 25px;
+   margin: 100px 0 0;
+   padding-bottom: 50px;
+   text-align: left;
+   font-weight: 400;
+   border-bottom: 1px solid #323f441f;
+ }
+ p.l-text::first-letter{
+   font-size: var(---font-50);
+ }
+ /* --------------------------------------------------------  */
+ .vision-mission-section{
+   width: min(100%, 1000px);
+   margin:  0 auto;
+   background-color: var(---text-grey);
+   margin-bottom: 50px;
+ }
+ .vision-mission-container{
+   margin-top: -50px;
+   display: flex;
+   flex-direction: row;
+   gap: 35px;
+   text-align: left;
+   
+  
+ }
+ .vision-mission-card{
+   width: min(100%, 100%);
+   margin-top: 7%;
+ }
+ .vision-mission-card p{
+   color: var(---btn-color);
+   margin-bottom: 40px;
+   font-size: var(---font-18);
+   font-weight: 300;
+   text-transform: capitalize;
+ }
+ .vision-mission-card h3{
+   font-size: var(---font-30);
+   width: 350px;
+   line-height: 45px;
+ }
+.about-background-image{
+   background-color: #fff;
+   margin: 0 auto;
+   max-width: 100%;
+}
+.about-background-image img{
+ margin-left: 30px;
+   width: min(90% 100px);
+   border-radius: 20px;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+/* -------------------------------------------------  */
+.customize-container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+   
+}
+.custom{
+   margin: 2% 0;
+}
+.custom .customize-card{
+
+   margin-bottom: 5%;
+}
+.customize-card .text p{
+  
+   width: 300px;
+}
+.text h4{
+   text-transform: capitalize;
+}
+/* ================================== contact HTML =================================== */
+.contact-section{
+   background: url(img/drew-beamer-kUHfMW8awpE-unsplash.jpg);
+
+   width: 100%;
+}
+.contact-us{
+   width: min(100%, 900px);
+   margin:  0 auto;
+   padding: 20px;
+   
+}
+.contact-us h2{
+   font-size: var(---font-50);
+   font-weight: 800;
+   width: 450px;
+   margin-bottom: 30px;
+}
+.contact-us p{
+   font-size: var(---font-18);
+   font-weight: 400;
+   color: var(---text-black-grey);
+   width: 400px;
+   
+   margin-bottom: 30px;
+}
+form{
+   width: 100%;
+}
+form .form-card{
+  
+}
+form .form-card .input-box{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+form input, form textarea{
+   width: 100%;
+   border: 0;
+   outline: 0;
+   padding: 15px;
+   margin: 10px 0;
+   font-size: var(---font-18);
+   color: var(---text-black-grey);
+}
+input:focus, textarea:focus{
+   border: 1px dotted var(---text-black);
+}
+form textarea{
+   resize: none;
+}
+form label{
+   text-transform: capitalize;
+   font-size: var(---font-15);
+   color: var(---text-black-grey);
+   font-weight: 600;
+   margin-top: 5px;
+   display: block;
+}
+div .f-p{
+   color: var(---text-black-grey);
+   font-size: 14px;
+   text-transform: capitalize;
+   margin-top: -5px;
+}
+.input-btn{
+   display: block;
+   width: 15%;
+}
