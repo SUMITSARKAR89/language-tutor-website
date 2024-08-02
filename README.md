@@ -22,7 +22,7 @@
 -  Ask me about `HTML, CSS and JS`.
 
 <br/>
-    https://github.com/SUMITSARKAR89/sumitsarkar89/assets/127943920/c03980ec-0eb9-403b-8f74-c26ad5a9ed6d
+   https://github.com/SUMITSARKAR89/language-tutor-website/tree/master
     <br/>
 Demo :https://66ac981a65041dfe39dcd036--thriving-monstera-e3601c.netlify.app/
     
