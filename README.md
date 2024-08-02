@@ -24,7 +24,7 @@
 <br/>
     https://github.com/SUMITSARKAR89/sumitsarkar89/assets/127943920/c03980ec-0eb9-403b-8f74-c26ad5a9ed6d
     <br/>
-Demo : https://master--glittering-scone-617b4b.netlify.app/
+Demo :https://66ac981a65041dfe39dcd036--thriving-monstera-e3601c.netlify.app/
     
    ### __"There is no friend as loyal as a book"__ 
 
