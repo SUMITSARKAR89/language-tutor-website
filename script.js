@@ -13,4 +13,4 @@ close[0].addEventListener("click", () => {
     nav.style.left = "-100%";
     open[0].style.display = "block";
     close[0].style.display = "none";
-})
+});
