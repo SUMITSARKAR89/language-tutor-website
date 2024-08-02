@@ -5,6 +5,8 @@
 #### HTML, CSS3, JavaScript
 <br/>
 
+<img src="img/ltw.jpeg" alt="">
+
 
 <br/>
 
